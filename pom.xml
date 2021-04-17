@@ -16,12 +16,12 @@
 <repository>
     <id>releases</id>
     <!-- CHANGE HERE by your team nexus server -->
-    <url>D:\DevOps\Practical\HelloMaven\HelloWorldMaven/repository/maven-releases/</url>
+    <url>http://15.207.107.136:8080/repository/maven-releases/</url>
   </repository>
   <snapshotRepository>
     <id>snapshots</id>
     <!-- CHANGE HERE by your team nexus server -->
-    <url>D:\DevOps\Practical\HelloMaven\HelloWorldMaven/repository/maven-snapshots/</url>
+    <url>http://15.207.107.136:8080/repository/maven-snapshots</url>
   </snapshotRepository>
 </distributionManagement>
 
