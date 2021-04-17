@@ -7,7 +7,7 @@ pipeline {
                                 }
                         }
                 stage('build') {
-                            step {
+                            steps {
                                    echo  'Clean Build'
                                    sh 'mvn clean compile' }
                         }
@@ -18,13 +18,13 @@ pipeline {
                                         }
                                 }
                 stage('package') {
-                                   step {
+                                   steps {
                                           echo 'Package'
                                           sh 'mvn package'
                                         }
                                 }
                 stage('deploy') {
-                                   step {
+                                   steps {
                                           echo 'Deploy'
                                           sh 'mvn deploy'
                                           }
