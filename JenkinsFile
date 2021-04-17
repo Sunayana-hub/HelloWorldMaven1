@@ -23,12 +23,6 @@ pipeline {
                                           sh 'mvn package'
                                         }
                                 }
-                stage('deploy') {
-                                   steps {
-                                          echo 'Deploy'
-                                          sh 'mvn deploy'
-                                          }
-                                }
                 }
 post {
         always {
