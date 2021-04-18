@@ -13,28 +13,11 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
                 <configuration>
-                    <webXml>WebContent\WEB-INF\web.xml</webXml>
+                    <webXml>src\main\web\WEB-INF\web.xml</webXml>
                 </configuration>
             </plugin>
         </plugins>
       </reporting>
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
-
-  <distributionManagement>
-<repository>
-    <id>releases</id>
-    <!-- CHANGE HERE by your team nexus server -->
-    <url>http://13.232.84.28:8081/</url>
-  </repository>
-  <snapshotRepository>
-    <id>snapshots</id>
-    <!-- CHANGE HERE by your team nexus server -->
-    <url>http://13.232.84.28:8081/</url>
-  </snapshotRepository>
-</distributionManagement>
-
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
