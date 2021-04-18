@@ -7,25 +7,7 @@
   <version>1.0-SNAPSHOT</version>
   <name>HelloWorldMaven</name>
   <url>http://maven.apache.org</url>
-   <reporting>
-  <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <configuration>
-                    <webXml>ws\target\JenkinsWar\WEB-INF\web.xml</webXml>
-                </configuration>
-            </plugin>
-    <plugin>
- 	<groupId>org.apache.maven.plugins</groupId>
- 	<artifactId>maven-war-plugin</artifactId>
- 	<version>2.6</version>
- 	<configuration>
- 		<failOnMissingWebXml>false</failOnMissingWebXml>
- 	</configuration>
- </plugin>
-        </plugins>
-      </reporting>
+   
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
