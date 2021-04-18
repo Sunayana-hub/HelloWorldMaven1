@@ -26,8 +26,9 @@ pipeline {
                 stage('deploy') {
                                    steps {
                                           echo 'Deploy'
-                                          sh './startup.sh'
+                                          withMaven(maven : 'Apache_Maven_3.6.0'){
                                           sh 'mvn deploy'
+                                       }
                                         }
                                 }
                 }
