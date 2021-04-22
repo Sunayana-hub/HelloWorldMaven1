@@ -48,9 +48,11 @@
  <version>2.2</version>  
  <configuration>  
   <url>http://13.232.248.154:8080/manager/html</url>  
-   <server>snapshots</server>
-   <username>admin</username>
-    <password>admin123</password>
+    <server>
+      <id>releases</id>
+      <username>admin</username>
+      <password>admin123</password>
+    </server>
  </configuration>   
 </plugin>   
        </plugins>
