@@ -14,12 +14,12 @@
   
 <distributionManagement>
 <repository>
-    <id>RELEASES</id>
+    <id>releases</id>
     <!-- CHANGE HERE by your team nexus server -->
     <url>http://13.232.248.154:8081/repository/maven-releases/</url>
   </repository>
   <snapshotRepository>
-    <id>SNAPSHOTS</id>
+    <id>snapshots</id>
     <!-- CHANGE HERE by your team nexus server -->
     <url>http://13.232.248.154:8081/repository/maven-snapshots/</url>
   </snapshotRepository>
@@ -42,7 +42,7 @@
  <version>2.2</version>  
  <configuration>  
   <url>http://13.232.248.154:8080/manager/html</url>  
-   <server>SNAPSHOTS</server>
+   <server>snapshots</server>
    <username>admin</username>
     <password>admin123</password>
  </configuration>   
