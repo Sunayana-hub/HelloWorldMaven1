@@ -4,7 +4,7 @@
   <groupId>com.test.HelloWorldMaven</groupId>
   <artifactId>HelloWorldMaven</artifactId>
   <packaging>war</packaging>
-  <version>1.0.9-SNAPSHOT</version>
+  <version>1.0.9-RELEASE</version>
   <name>HelloWorldMaven</name>
   <url>http://maven.apache.org</url>
    
@@ -42,7 +42,7 @@
  <version>2.2</version>  
  <configuration>  
   <url>http://13.232.248.154:8080/manager/html</url>  
-   <server>snapshots</server>
+   <server>releases</server>
    <username>admin</username>
     <password>admin123</password>
  </configuration>   
