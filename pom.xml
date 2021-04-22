@@ -32,6 +32,12 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+    <groupId>org.apache.tomcat</groupId>
+    <artifactId>tomcat</artifactId>
+    <version>8.5.0</version>
+    <type>pom</type>
+</dependency>
   </dependencies>
    <build>
     <finalName>JenkinsWar</finalName>
@@ -42,7 +48,7 @@
  <version>2.2</version>  
  <configuration>  
   <url>http://13.232.248.154:8080/manager/html</url>  
-   <server>releases</server>
+   <server>snapshots</server>
    <username>admin</username>
     <password>admin123</password>
  </configuration>   
