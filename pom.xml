@@ -47,7 +47,7 @@
  <artifactId>tomcat8-maven-plugin</artifactId>  
  <version>2.2</version>  
  <configuration>  
-  <url>http://13.232.248.154:8080</url>  
+  <url>http://13.232.248.154:8081</url>  
     <server>
       <id>releases</id>
       <username>admin</username>
