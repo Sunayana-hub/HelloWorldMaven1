@@ -48,8 +48,7 @@
  <version>2.2</version>  
  <configuration>  
   <url>http://13.232.161.23:8081/</url>  
-    <server>
-      <id>releases</id>
+    <server>releases</server>
       <username>admin</username>
       <password>admin123</password>
     </server>
