@@ -16,12 +16,12 @@
 <repository>
     <id>releases</id>
     <!-- CHANGE HERE by your team nexus server -->
-    <url>http://13.232.248.154:8081/repository/maven-releases/</url>
+    <url>http://13.232.161.23:8081/repository/maven-releases/</url>
   </repository>
   <snapshotRepository>
     <id>snapshots</id>
     <!-- CHANGE HERE by your team nexus server -->
-    <url>http://13.232.248.154:8081/repository/maven-snapshots/</url>
+    <url>http://13.232.161.23:8081/repository/maven-snapshots/</url>
   </snapshotRepository>
 </distributionManagement>
   
@@ -47,7 +47,7 @@
  <artifactId>tomcat8-maven-plugin</artifactId>  
  <version>2.2</version>  
  <configuration>  
-  <url>http://13.232.248.154:8081</url>  
+  <url>http://13.232.161.23:8081/</url>  
     <server>
       <id>releases</id>
       <username>admin</username>
