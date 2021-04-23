@@ -51,7 +51,6 @@
     <server>releases</server>
       <username>admin</username>
       <password>admin123</password>
-    </server>
  </configuration>   
 </plugin>   
        </plugins>
